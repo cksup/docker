@@ -12,7 +12,7 @@ public class DockerApplication {
 	@GetMapping("/hello")
 	@ResponseBody
 	public String hello() {
-		return "hello";
+		return "hello sts";
 	}
 	
 	public static void main(String[] args) {
