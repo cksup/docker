@@ -7,16 +7,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
-@RestController
 public class DockerApplication {
-	@GetMapping("/hello")
-	@ResponseBody
-	public String hello() {
-		return "hello sts";
-	}
 	
 	public static void main(String[] args) {
 		SpringApplication.run(DockerApplication.class, args);
 	}
-
 }
